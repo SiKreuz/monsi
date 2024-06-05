@@ -1,7 +1,62 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://monsi.org'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Monsi'
 
 [module]
   [[module.imports]]
     path = "github.com/rhazdon/hugo-theme-hello-friend-ng"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Software Engineer"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = false
+
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
+
+  # Metadata mostly used in document's head
+  description = "Monsi's homepage"
+  keywords = "homepage, cv"
+  # images = [""]
+
+[[params.social]]
+  name = "email"
+  url  = "mailto:mail@monsi.org"
+
+[[params.social]]
+  name = "linkedin"
+  url  = "https://www.linkedin.com/in/simon-kreuzer/"
+
+[[params.social]]
+  name = "github"
+  url  = "https://github.com/SiKreuz"
+
+[[params.social]]
+  name = "mastodon"
+  url = "https://tum.social/@monsi"
+
+[[params.social]]
+  name = "lastfm"
+  url = "https://www.last.fm/user/herrmonsi"
+
+[[params.social]]
+  name = "discord"
+  url = "https://discordapp.com/users/503269097807806475"
+
+[[params.social]]
+  name = "steam"
+  url = "https://steamcommunity.com/id/herrmonsi/"
+
+[[params.social]]
+  name = "gpg"
+  url = "https://gist.github.com/SiKreuz/8fd8995687920d6a0bd3ce7793231519"
