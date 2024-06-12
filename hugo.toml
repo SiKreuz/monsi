@@ -12,22 +12,15 @@ title = 'Monsi'
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
-  # Subtitle for home
   homeSubtitle = "Software Engineer"
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
-
-  # Enable sharing buttons, if you like
   enableSharingButtons = false
-
-  # Show a global language switcher in the navigation bar
   enableGlobalLanguageMenu = false
+  enableThemeToggle = true
 
-  # Metadata mostly used in document's head
   description = "Monsi's homepage"
   keywords = "homepage, cv"
-  # images = [""]
 
 [[params.social]]
   name = "email"
