@@ -22,13 +22,14 @@ title = 'Monsi'
   description = "Monsi's homepage"
   keywords = "homepage, cv"
 
+[params.footer]
+  bottomText = [
+    "© 2024 Monsi"
+  ]
+
 [[params.social]]
   name = "email"
   url  = "mailto:mail@monsi.org"
-
-[[params.social]]
-  name = "linkedin"
-  url  = "https://www.linkedin.com/in/simon-kreuzer/"
 
 [[params.social]]
   name = "github"
