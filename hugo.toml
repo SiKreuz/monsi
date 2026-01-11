@@ -24,7 +24,7 @@ title = 'Monsi'
 
 [params.footer]
   bottomText = [
-    "© 2024 Monsi"
+    "© 2026 Monsi"
   ]
 
 [[params.social]]
@@ -34,10 +34,6 @@ title = 'Monsi'
 [[params.social]]
   name = "github"
   url  = "https://github.com/SiKreuz"
-
-[[params.social]]
-  name = "mastodon"
-  url = "https://tum.social/@monsi"
 
 [[params.social]]
   name = "lastfm"
